@@ -6,7 +6,7 @@ url: "https://rho.nz/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Rho - A Greek Letter, And Three Letters From My Name
+  title: Rho - Not Just A Letter
   #avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: 88d6007599d80269421aa375d188b53e
@@ -21,23 +21,23 @@ theme_settings:
   # Icons
   rss: true
   email_address: richard@hofman.co.nz # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket: 
-  dribbble:
-  facebook:
-  flickr:
-  gitlab: 
-  github: "richardhofman/"
-  google_plus:
-  instagram:
+  behance: 
+  bitbucket: rho_nz
+  dribbble: 
+  facebook: 
+  flickr: 
+  gitlab: richardhofman
+  github: richardhofman
+  google_plus: 
+  instagram: 
   linkedin:  # Full URL
-  pinterest:
+  pinterest: 
   reddit: 
   soundcloud: 
   stack_exchange:  # Full URL
   steam: 
   tumblr: 
-  twitter: "rho_nz"
+  twitter: rho_nz
   wordpress:
   youtube:
 
