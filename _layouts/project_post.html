@@ -1,0 +1,14 @@
+---
+layout: post
+---
+{% if (site.projects | where: "project", page.project).size > 1 %}
+<ul class="project-toc">
+{% for project_log in site.projects | where: "project", page.project %}
+    <li class="project-log-link">
+        <a href="{{ project_log.url | relative_url }}">{{ project_log.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{{content}}

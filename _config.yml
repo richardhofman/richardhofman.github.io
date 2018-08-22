@@ -3,6 +3,17 @@ baseurl: ""
 favicon_base: "assets/img/favicons/"
 url: "https://rho.nz/"
 
+collections:
+  projects:
+    output: True
+
+defaults:
+  - scope: 
+      path: ""
+      type: "projects"
+    values:
+      layout: project_post
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
